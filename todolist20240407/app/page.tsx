@@ -29,7 +29,7 @@ export default function Home() {
         <main>
           <div>
             <input type="text" value={text} onChange={changeText}/>
-            <button onClick={addTodos}>追加!</button>
+            <button onClick={addTodos} disabled={!text}>追加</button>
           </div>
           <div>
             <ul>
