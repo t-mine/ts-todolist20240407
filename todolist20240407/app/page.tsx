@@ -1,6 +1,7 @@
 "use client";
 
 import {useState} from "react";
+import Button from '@mui/material/Button';
 
 export default function Home() {
   const [text, setText] = useState<string>('');
@@ -36,7 +37,7 @@ export default function Home() {
               {todos.map((todo, index) => (
                 <li key={todo}>
                   <p>{todo}</p>
-                  <button onClick={()=>deleteTodo(index)}>完了</button>
+                  <Button variant="contained" onClick={()=>deleteTodo(index)}>完了</Button>
                 </li>
               ))}
             </ul>
