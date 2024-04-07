@@ -5,7 +5,7 @@
 - Node.jsをインストール
 - npx create-next-app --ts　※「C:\Users\user\AppData\Roaming\npm」フォルダをあらかじめ作らないとエラーになる
 - npm run build
-- npm run start
+- npm run dev　※（npm run build + npm run start）？
 
 ## Next.js
 - Next.js 13で開発方法はどう変わる？<br>
